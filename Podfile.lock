@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - Kingfisher (6.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - Kingfisher
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Kingfisher: adde87a4f74f6a3845395769354efff593581740
+
+PODFILE CHECKSUM: a032ec0131e6cf7e3c42b87f7b9d8f56b2f23f1d
+
+COCOAPODS: 1.10.1

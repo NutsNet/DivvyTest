@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63F4ACA25AA7DDA006EA694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F4AC925AA7DDA006EA694 /* AppDelegate.swift */; };
+		C63F4ACC25AA7DDA006EA694 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F4ACB25AA7DDA006EA694 /* SceneDelegate.swift */; };
+		C63F4AD025AA7DDB006EA694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63F4ACF25AA7DDB006EA694 /* Assets.xcassets */; };
+		C63F4AD325AA7DDB006EA694 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63F4AD225AA7DDB006EA694 /* Preview Assets.xcassets */; };
+		C63F4AD625AA7DDB006EA694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63F4AD425AA7DDB006EA694 /* LaunchScreen.storyboard */; };
+		C63F4AE025AA7E67006EA694 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F4ADF25AA7E66006EA694 /* MainViewController.swift */; };
+		C63F4B1625AA8647006EA694 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B1525AA862F006EA694 /* Lato-Black.ttf */; };
+		C63F4B1725AA8647006EA694 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B1225AA862F006EA694 /* Lato-BlackItalic.ttf */; };
+		C63F4B1825AA8647006EA694 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0425AA862F006EA694 /* Lato-Bold.ttf */; };
+		C63F4B1925AA8647006EA694 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B1025AA862F006EA694 /* Lato-BoldItalic.ttf */; };
+		C63F4B1A25AA8647006EA694 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0625AA862F006EA694 /* Lato-Hairline.ttf */; };
+		C63F4B1B25AA8647006EA694 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B1125AA862F006EA694 /* Lato-HairlineItalic.ttf */; };
+		C63F4B1C25AA8647006EA694 /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B1425AA862F006EA694 /* Lato-Heavy.ttf */; };
+		C63F4B1D25AA8647006EA694 /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0825AA862F006EA694 /* Lato-HeavyItalic.ttf */; };
+		C63F4B1E25AA8647006EA694 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0A25AA862F006EA694 /* Lato-Italic.ttf */; };
+		C63F4B1F25AA8647006EA694 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0E25AA862F006EA694 /* Lato-Light.ttf */; };
+		C63F4B2025AA8647006EA694 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0525AA862F006EA694 /* Lato-LightItalic.ttf */; };
+		C63F4B2125AA8647006EA694 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B1325AA862F006EA694 /* Lato-Medium.ttf */; };
+		C63F4B2225AA8647006EA694 /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0925AA862F006EA694 /* Lato-MediumItalic.ttf */; };
+		C63F4B2325AA8647006EA694 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0725AA862F006EA694 /* Lato-Regular.ttf */; };
+		C63F4B2425AA8647006EA694 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0B25AA862F006EA694 /* Lato-Semibold.ttf */; };
+		C63F4B2525AA8647006EA694 /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0C25AA862F006EA694 /* Lato-SemiboldItalic.ttf */; };
+		C63F4B2625AA8647006EA694 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0D25AA862F006EA694 /* Lato-Thin.ttf */; };
+		C63F4B2725AA8647006EA694 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F4B0F25AA862F006EA694 /* Lato-ThinItalic.ttf */; };
+		C63F4B3225AA9B1D006EA694 /* OneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F4B3125AA9B1D006EA694 /* OneData.swift */; };
+		C63F4B3525AAA89B006EA694 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F4B3425AAA89B006EA694 /* TableView.swift */; };
+		C63F4B3825AAA991006EA694 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F4B3725AAA991006EA694 /* TableViewCell.swift */; };
+		C63F4B4925ABD317006EA694 /* CellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F4B4825ABD317006EA694 /* CellViewController.swift */; };
+		C661DF9625BF7650000BA1D2 /* Companies.json in Resources */ = {isa = PBXBuildFile; fileRef = C661DF9525BF7650000BA1D2 /* Companies.json */; };
+		C661DF9C25BF769F000BA1D2 /* Companie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661DF9B25BF769F000BA1D2 /* Companie.swift */; };
+		C661DFCA25BFECBB000BA1D2 /* logobis.png in Resources */ = {isa = PBXBuildFile; fileRef = C661DFC925BFECBB000BA1D2 /* logobis.png */; };
+		DE0DCC1D1E3A8CB1850A09AD /* Pods_Testios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F594AB018E8CDA5EC3E4BA9 /* Pods_Testios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		135C876911B1646B4DE635C5 /* Pods-Testios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testios.debug.xcconfig"; path = "Target Support Files/Pods-Testios/Pods-Testios.debug.xcconfig"; sourceTree = "<group>"; };
+		6DD2707049A10D48DE176F34 /* Pods-Testios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testios.release.xcconfig"; path = "Target Support Files/Pods-Testios/Pods-Testios.release.xcconfig"; sourceTree = "<group>"; };
+		7F594AB018E8CDA5EC3E4BA9 /* Pods_Testios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Testios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63F4AC625AA7DDA006EA694 /* Testios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63F4AC925AA7DDA006EA694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C63F4ACB25AA7DDA006EA694 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C63F4ACF25AA7DDB006EA694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63F4AD225AA7DDB006EA694 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C63F4AD525AA7DDB006EA694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C63F4AD725AA7DDB006EA694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63F4ADF25AA7E66006EA694 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C63F4B0425AA862F006EA694 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		C63F4B0525AA862F006EA694 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		C63F4B0625AA862F006EA694 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		C63F4B0725AA862F006EA694 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		C63F4B0825AA862F006EA694 /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		C63F4B0925AA862F006EA694 /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C63F4B0A25AA862F006EA694 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		C63F4B0B25AA862F006EA694 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		C63F4B0C25AA862F006EA694 /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		C63F4B0D25AA862F006EA694 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		C63F4B0E25AA862F006EA694 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		C63F4B0F25AA862F006EA694 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C63F4B1025AA862F006EA694 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C63F4B1125AA862F006EA694 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		C63F4B1225AA862F006EA694 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C63F4B1325AA862F006EA694 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		C63F4B1425AA862F006EA694 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		C63F4B1525AA862F006EA694 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		C63F4B3125AA9B1D006EA694 /* OneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneData.swift; sourceTree = "<group>"; };
+		C63F4B3425AAA89B006EA694 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		C63F4B3725AAA991006EA694 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C63F4B4825ABD317006EA694 /* CellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewController.swift; sourceTree = "<group>"; };
+		C661DF9525BF7650000BA1D2 /* Companies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Companies.json; sourceTree = "<group>"; };
+		C661DF9B25BF769F000BA1D2 /* Companie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companie.swift; sourceTree = "<group>"; };
+		C661DFC925BFECBB000BA1D2 /* logobis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logobis.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63F4AC325AA7DDA006EA694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0DCC1D1E3A8CB1850A09AD /* Pods_Testios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2270920F9F9839AEAC7C8CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F594AB018E8CDA5EC3E4BA9 /* Pods_Testios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B53E77D44E3C4C367919B2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				135C876911B1646B4DE635C5 /* Pods-Testios.debug.xcconfig */,
+				6DD2707049A10D48DE176F34 /* Pods-Testios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C63F4ABD25AA7DDA006EA694 = {
+			isa = PBXGroup;
+			children = (
+				C63F4AC825AA7DDA006EA694 /* Testios */,
+				2270920F9F9839AEAC7C8CD2 /* Frameworks */,
+				C63F4AC725AA7DDA006EA694 /* Products */,
+				9B53E77D44E3C4C367919B2A /* Pods */,
+				C63F4B0325AA8617006EA694 /* Font */,
+				C63F4AFF25AA8595006EA694 /* Gfx */,
+			);
+			sourceTree = "<group>";
+		};
+		C63F4AC725AA7DDA006EA694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63F4AC625AA7DDA006EA694 /* Testios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63F4AC825AA7DDA006EA694 /* Testios */ = {
+			isa = PBXGroup;
+			children = (
+				C63F4AC925AA7DDA006EA694 /* AppDelegate.swift */,
+				C63F4ACB25AA7DDA006EA694 /* SceneDelegate.swift */,
+				C63F4ADF25AA7E66006EA694 /* MainViewController.swift */,
+				C63F4B4825ABD317006EA694 /* CellViewController.swift */,
+				C63F4B3425AAA89B006EA694 /* TableView.swift */,
+				C63F4B3725AAA991006EA694 /* TableViewCell.swift */,
+				C63F4B3125AA9B1D006EA694 /* OneData.swift */,
+				C661DF9B25BF769F000BA1D2 /* Companie.swift */,
+				C661DF9525BF7650000BA1D2 /* Companies.json */,
+				C63F4ACF25AA7DDB006EA694 /* Assets.xcassets */,
+				C63F4AD425AA7DDB006EA694 /* LaunchScreen.storyboard */,
+				C63F4AD725AA7DDB006EA694 /* Info.plist */,
+				C63F4AD125AA7DDB006EA694 /* Preview Content */,
+			);
+			path = Testios;
+			sourceTree = "<group>";
+		};
+		C63F4AD125AA7DDB006EA694 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C63F4AD225AA7DDB006EA694 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C63F4AFF25AA8595006EA694 /* Gfx */ = {
+			isa = PBXGroup;
+			children = (
+				C661DFC925BFECBB000BA1D2 /* logobis.png */,
+			);
+			path = Gfx;
+			sourceTree = "<group>";
+		};
+		C63F4B0325AA8617006EA694 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C63F4B1525AA862F006EA694 /* Lato-Black.ttf */,
+				C63F4B1225AA862F006EA694 /* Lato-BlackItalic.ttf */,
+				C63F4B0425AA862F006EA694 /* Lato-Bold.ttf */,
+				C63F4B1025AA862F006EA694 /* Lato-BoldItalic.ttf */,
+				C63F4B0625AA862F006EA694 /* Lato-Hairline.ttf */,
+				C63F4B1125AA862F006EA694 /* Lato-HairlineItalic.ttf */,
+				C63F4B1425AA862F006EA694 /* Lato-Heavy.ttf */,
+				C63F4B0825AA862F006EA694 /* Lato-HeavyItalic.ttf */,
+				C63F4B0A25AA862F006EA694 /* Lato-Italic.ttf */,
+				C63F4B0E25AA862F006EA694 /* Lato-Light.ttf */,
+				C63F4B0525AA862F006EA694 /* Lato-LightItalic.ttf */,
+				C63F4B1325AA862F006EA694 /* Lato-Medium.ttf */,
+				C63F4B0925AA862F006EA694 /* Lato-MediumItalic.ttf */,
+				C63F4B0725AA862F006EA694 /* Lato-Regular.ttf */,
+				C63F4B0B25AA862F006EA694 /* Lato-Semibold.ttf */,
+				C63F4B0C25AA862F006EA694 /* Lato-SemiboldItalic.ttf */,
+				C63F4B0D25AA862F006EA694 /* Lato-Thin.ttf */,
+				C63F4B0F25AA862F006EA694 /* Lato-ThinItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63F4AC525AA7DDA006EA694 /* Testios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63F4ADA25AA7DDB006EA694 /* Build configuration list for PBXNativeTarget "Testios" */;
+			buildPhases = (
+				390BBEB13EBA422C6F36CDD4 /* [CP] Check Pods Manifest.lock */,
+				C63F4AC225AA7DDA006EA694 /* Sources */,
+				C63F4AC325AA7DDA006EA694 /* Frameworks */,
+				C63F4AC425AA7DDA006EA694 /* Resources */,
+				244C126EAB3C3C15A3F09623 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Testios;
+			productName = Testios;
+			productReference = C63F4AC625AA7DDA006EA694 /* Testios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C63F4ABE25AA7DDA006EA694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C63F4AC525AA7DDA006EA694 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C63F4AC125AA7DDA006EA694 /* Build configuration list for PBXProject "Testios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C63F4ABD25AA7DDA006EA694;
+			productRefGroup = C63F4AC725AA7DDA006EA694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63F4AC525AA7DDA006EA694 /* Testios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63F4AC425AA7DDA006EA694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63F4B1625AA8647006EA694 /* Lato-Black.ttf in Resources */,
+				C63F4B1725AA8647006EA694 /* Lato-BlackItalic.ttf in Resources */,
+				C63F4B1825AA8647006EA694 /* Lato-Bold.ttf in Resources */,
+				C63F4B1925AA8647006EA694 /* Lato-BoldItalic.ttf in Resources */,
+				C661DF9625BF7650000BA1D2 /* Companies.json in Resources */,
+				C63F4B1A25AA8647006EA694 /* Lato-Hairline.ttf in Resources */,
+				C63F4B1B25AA8647006EA694 /* Lato-HairlineItalic.ttf in Resources */,
+				C63F4B1C25AA8647006EA694 /* Lato-Heavy.ttf in Resources */,
+				C63F4B1D25AA8647006EA694 /* Lato-HeavyItalic.ttf in Resources */,
+				C63F4B1E25AA8647006EA694 /* Lato-Italic.ttf in Resources */,
+				C63F4B1F25AA8647006EA694 /* Lato-Light.ttf in Resources */,
+				C63F4B2025AA8647006EA694 /* Lato-LightItalic.ttf in Resources */,
+				C63F4B2125AA8647006EA694 /* Lato-Medium.ttf in Resources */,
+				C63F4B2225AA8647006EA694 /* Lato-MediumItalic.ttf in Resources */,
+				C63F4B2325AA8647006EA694 /* Lato-Regular.ttf in Resources */,
+				C63F4B2425AA8647006EA694 /* Lato-Semibold.ttf in Resources */,
+				C63F4B2525AA8647006EA694 /* Lato-SemiboldItalic.ttf in Resources */,
+				C661DFCA25BFECBB000BA1D2 /* logobis.png in Resources */,
+				C63F4B2625AA8647006EA694 /* Lato-Thin.ttf in Resources */,
+				C63F4B2725AA8647006EA694 /* Lato-ThinItalic.ttf in Resources */,
+				C63F4AD625AA7DDB006EA694 /* LaunchScreen.storyboard in Resources */,
+				C63F4AD325AA7DDB006EA694 /* Preview Assets.xcassets in Resources */,
+				C63F4AD025AA7DDB006EA694 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		244C126EAB3C3C15A3F09623 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Testios/Pods-Testios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Testios/Pods-Testios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Testios/Pods-Testios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		390BBEB13EBA422C6F36CDD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Testios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C63F4AC225AA7DDA006EA694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63F4B3225AA9B1D006EA694 /* OneData.swift in Sources */,
+				C63F4B3525AAA89B006EA694 /* TableView.swift in Sources */,
+				C63F4B4925ABD317006EA694 /* CellViewController.swift in Sources */,
+				C63F4ACA25AA7DDA006EA694 /* AppDelegate.swift in Sources */,
+				C63F4B3825AAA991006EA694 /* TableViewCell.swift in Sources */,
+				C661DF9C25BF769F000BA1D2 /* Companie.swift in Sources */,
+				C63F4ACC25AA7DDA006EA694 /* SceneDelegate.swift in Sources */,
+				C63F4AE025AA7E67006EA694 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C63F4AD425AA7DDB006EA694 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63F4AD525AA7DDB006EA694 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C63F4AD825AA7DDB006EA694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C63F4AD925AA7DDB006EA694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63F4ADB25AA7DDB006EA694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135C876911B1646B4DE635C5 /* Pods-Testios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Testios/Preview Content\"";
+				DEVELOPMENT_TEAM = K5M2Q5H76U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Testios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.nutsnet.Testios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C63F4ADC25AA7DDB006EA694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD2707049A10D48DE176F34 /* Pods-Testios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Testios/Preview Content\"";
+				DEVELOPMENT_TEAM = K5M2Q5H76U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Testios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.nutsnet.Testios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C63F4AC125AA7DDA006EA694 /* Build configuration list for PBXProject "Testios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63F4AD825AA7DDB006EA694 /* Debug */,
+				C63F4AD925AA7DDB006EA694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63F4ADA25AA7DDB006EA694 /* Build configuration list for PBXNativeTarget "Testios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63F4ADB25AA7DDB006EA694 /* Debug */,
+				C63F4ADC25AA7DDB006EA694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C63F4ABE25AA7DDA006EA694 /* Project object */;
+}

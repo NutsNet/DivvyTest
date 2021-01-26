@@ -1,0 +1,6 @@
+framework module Pods_Testios {
+  umbrella header "Pods-Testios-umbrella.h"
+
+  export *
+  module * { export * }
+}
