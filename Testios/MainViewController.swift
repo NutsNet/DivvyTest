@@ -42,6 +42,7 @@ class MainViewController: UIViewController, TableViewDelegate {
         // Title
         mainTitleLb.alpha = 0
         mainTitleLb.textAlignment = .center
+        mainTitleLb.isUserInteractionEnabled = true
         mainTitleLb.font = UIFont(name: "Lato-Bold", size: 32)
         mainTitleLb.translatesAutoresizingMaskIntoConstraints = false
         mainTitleLb.sizeToFit()

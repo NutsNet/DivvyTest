@@ -48,6 +48,7 @@ class CellViewController: UIViewController {
         // Pic
         let cellPicIv = UIImageView()
         cellPicIv.clipsToBounds = true
+        cellPicIv.isUserInteractionEnabled = true
         cellPicIv.contentMode = UIView.ContentMode.scaleAspectFill
         cellPicIv.backgroundColor = UIColor(rgb: 0xEEEEEE)
         cellPicIv.translatesAutoresizingMaskIntoConstraints = false
@@ -66,6 +67,7 @@ class CellViewController: UIViewController {
         // Name
         let cellNameLb = UILabel()
         cellNameLb.text = cellCompanie.name
+        cellNameLb.isUserInteractionEnabled = true
         cellNameLb.font = UIFont(name: "Lato-Bold", size: 30)
         cellNameLb.textColor = UIColor(rgb: 0x000000, a: 0.75)
         cellNameLb.translatesAutoresizingMaskIntoConstraints = false
@@ -79,6 +81,7 @@ class CellViewController: UIViewController {
         
         // Address
         cellAddressLb.numberOfLines = 0
+        cellAddressLb.isUserInteractionEnabled = true
         cellAddressLb.text = cellCompanie.location!["address"]
         cellAddressLb.font = UIFont(name: "Lato-Regular", size: 30)
         cellAddressLb.textColor = UIColor(rgb: 0x000000, a: 0.75)
