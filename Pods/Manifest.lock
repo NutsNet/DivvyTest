@@ -3,24 +3,29 @@ PODS:
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
+  - HeapSdk (0.0.8):
+    - Alamofire
   - Kingfisher (7.1.1)
 
 DEPENDENCIES:
   - Alamofire
   - Charts
+  - HeapSdk
   - Kingfisher
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - Charts
+    - HeapSdk
     - Kingfisher
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  HeapSdk: d76dcf3e0b4debcc71b47e1311112b8f56d0f532
   Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
 
-PODFILE CHECKSUM: a032ec0131e6cf7e3c42b87f7b9d8f56b2f23f1d
+PODFILE CHECKSUM: 553d930d55e17e76fd103d64b10bb72e2ce5d49a
 
 COCOAPODS: 1.11.2

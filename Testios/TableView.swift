@@ -8,7 +8,7 @@
 import UIKit
 import Kingfisher
 
-protocol TableViewDelegate: class {
+protocol TableViewDelegate {
     func mainOpenCell(companie: Companie)
     func mainGetData(isFirst: Bool)
 }
