@@ -26,7 +26,7 @@ public extension UIWindow {
     // The SDK will catch any events coming from the testing app
     @objc func catchEvent(event: UIEvent) {
         // Event processing
-        queue.sync { HSdk.hapiProcessEvent(event: event) }
+        queue.sync { HSdk.hsdkProcessEvent(event: event) }
         
         // Releasing event to the app
         catchEvent(event: event)
@@ -37,7 +37,7 @@ public class HSdk: NSObject {
     
     public override init() {
         super.init()
-        print("\n#### HeapSdk: init sdk 0.0.9")
+        print("\n#### HeapSdk: init sdk 0.1.0")
         
         // Start swizzling event methods to catch events
         UIWindow.swizzleEventMethod()
@@ -52,7 +52,7 @@ public class HSdk: NSObject {
     //  . timestamp, time whem view touched
     //  . info, get info about view like the name
     //
-    static func hapiProcessEvent(event: UIEvent) {
+    static func hsdkProcessEvent(event: UIEvent) {
         var parameters = Parameters()
         parameters["timestamp"] = event.timestamp
         
@@ -67,9 +67,6 @@ public class HSdk: NSObject {
                 if let view = touch.view {
                     let classObj = type(of: view)
                     let classStr = String(describing: view)
-                    
-                    print(classObj)
-                    print(classStr)
                     
                     parameters["location"] = "(x: \(touch.location(in: view).x), y: \(touch.location(in: view).y))"
                     
@@ -126,11 +123,17 @@ public class HSdk: NSObject {
                         parameters["class"] = "MapView"
                         parameters["info"] = "user is using the map"
                     }
+                    
+                    // Chart
+                    if classStr.contains("BarChartView") {
+                        parameters["class"] = "BarChartView"
+                        parameters["info"] = "user is using the chart"
+                    }
                 }
             }
         }
         
         // Check if we got enought data about the event to send to the backend
-        if parameters["type"] != nil { HApi.shared.hsdkPostEvent(parameters: parameters) }
+        if parameters["type"] != nil { HApi.shared.hapiPostEvent(parameters: parameters) { _ in } }
     }
 }

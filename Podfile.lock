@@ -3,7 +3,7 @@ PODS:
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
-  - HeapSdk (0.0.9):
+  - HeapSdk (0.1.0):
     - Alamofire
   - Kingfisher (7.1.1)
 
@@ -23,7 +23,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
-  HeapSdk: ce7870c22b2b3e68d3bbe460e2205a1d172416f9
+  HeapSdk: f3d7ce9cfaeffa0ebf93dcb63a19cfc474affaea
   Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
 
 PODFILE CHECKSUM: 553d930d55e17e76fd103d64b10bb72e2ce5d49a
